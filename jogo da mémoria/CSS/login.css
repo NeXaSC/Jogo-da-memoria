@@ -1,0 +1,95 @@
+.imagem_fundo {
+    background-image: url("./imagens/banner_Sonic.jpg"); /* Define a imagem de fundo da div */
+    background-size: cover; /* redimensiona a imagem para cobrir toda a div */
+    background-repeat: no-repeat; /* impede que a imagem seja repetida */
+    position: relative; /* define a posição do elemento como relativa */
+    overflow: hidden;
+}
+
+.imagem_fundo h1  {
+    color: black; /* define a cor do texto */
+    text-align: center; /* centraliza o texto */
+    font-size: 48px; /* define o tamanho da fonte */
+    margin-top: -300px; /* define o espaçamento entre o elemento e o topo */
+}
+
+.imagem_fundo form {
+    position: absolute; /* define a posição do elemento como absoluta */
+    top: 50%; /* define a posição vertical do elemento */
+    left: 50%; /* define a posição horizontal do elemento */
+    transform: translate(-50%, -50%); /* centraliza o elemento na div pai */
+    text-align: center; /* centraliza o conteúdo do elemento */
+}
+
+.imagem_fundo input[type="text"] {
+    padding: 10px; /* adiciona um espaçamento interno */
+    font-size: 16px; /* define o tamanho da fonte */
+    border: 2px solid #333; /* adiciona uma borda */
+    border-radius: 8px; /* define o raio dos cantos da borda */
+    background-color: #fff; /* define a cor de fundo do elemento */
+    color: #333; /* define a cor do texto */
+    margin: 20px auto; /* define o espaçamento externo do elemento */
+    display: block; /* define o tipo de exibição do elemento */
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* adiciona uma sombra */
+    outline: none; /* remove o contorno padrão */
+    font-size: 1em; /* define o tamanho da fonte em relação ao elemento pai */
+    width: 100%; /* define a largura do elemento */
+    max-width: 300px; /* define a largura máxima do elemento */
+}
+  
+.imagem_fundo button {
+    padding: 15px; /* adiciona um espaçamento interno */
+    font-size: 16px; /* define o tamanho da fonte */
+    border-radius: 8px; /* define o raio dos cantos da borda */
+    background-color: #4CAF50; /* define a cor de fundo do elemento */
+    color: #fff; /* define a cor do texto */
+    margin: 20px auto; /* define o espaçamento externo do elemento */
+    display: block; /* define o tipo de exibição do elemento */
+    cursor: pointer; /* define o cursor do mouse */
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* adiciona uma sombra */
+    font-size: 1em; /* define o tamanho da fonte em relação ao elemento pai */
+    width: 100%; /* define a largura do elemento */
+    max-width: 300px; /* define a largura máxima do elemento */
+}
+
+.formulario {
+    display: flex; /* define a exibição do elemento como flex */
+    flex-direction: column; /* define a direção dos itens do flex */
+    justify-content: center; /* define o alinhamento vertical dos itens do flex */
+}
+
+.login_button:disabled{
+    background-color: gray;
+    color: white;
+    cursor: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0c0c;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .footer-text {
+    margin-right: 10px;
+  }
+  
+  .footer-text a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-text a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-logo {
+    height: 25px;
+    margin-right: 10px;
+  }
+
